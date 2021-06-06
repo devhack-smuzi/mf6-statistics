@@ -9,7 +9,7 @@ sharedMappings.register(
 
 module.exports = {
   output: {
-    uniqueName: "mf1Main",
+    uniqueName: "mf6Statistics",
     publicPath: "auto"
   },
   optimization: {
@@ -24,11 +24,11 @@ module.exports = {
     new ModuleFederationPlugin({
       
         // For remotes (please adjust)
-        name: "mf1Main",
+        name: "mf6Statistics",
         filename: "remoteEntry.js",
         exposes: {
-            './MF1Main': './/src/app/app.module.ts',
-            './MF1Platform': './/src/platform.ts'
+            './MF6Statistics': './/src/app/app.module.ts',
+            './MF6Platform': './/src/platform.ts'
         },        
         
         // For hosts (please adjust)
