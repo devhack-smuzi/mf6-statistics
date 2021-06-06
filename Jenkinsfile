@@ -6,7 +6,7 @@ pipeline {
         NETWORK = "mf-net"
 
         IMAGE_NAME = 'mf-statistics-img'
-        CONT_NAME = 'mf-staticstics'
+        CONT_NAME = 'mf-statistics'
     }
 
     stages {
