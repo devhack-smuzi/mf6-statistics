@@ -5,8 +5,8 @@ pipeline {
         PORT = 80
         NETWORK = "mf-net"
 
-        IMAGE_NAME = 'mf-main-img'
-        CONT_NAME = 'mf-main'
+        IMAGE_NAME = 'mf-statistics-img'
+        CONT_NAME = 'mf-staticstics'
     }
 
     stages {
